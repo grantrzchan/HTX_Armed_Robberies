@@ -2,3 +2,5 @@
 *.csv
 data
 venv
+temp
+chromedriver.exe
