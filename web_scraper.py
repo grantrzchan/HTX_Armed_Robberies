@@ -42,7 +42,7 @@ chrome_options =  webdriver.ChromeOptions()
 #suppress unnecessary logs from chrome driver
 chrome_options.add_experimental_option('excludeSwitches',['enable-logging'])
 #enable headless browsing
-chrome_options.add_argument("--headless")
+# chrome_options.add_argument("--headless")
 driver = webdriver.Chrome(options=chrome_options)
 
 spinner = Halo(text='Initializing Chrome Driver', spinner='line')

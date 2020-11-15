@@ -3,4 +3,5 @@
 data
 venv
 temp
+temp_old
 chromedriver.exe
